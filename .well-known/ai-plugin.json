@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Image Description Service",
+  "name_for_model": "image_desc",
+  "description_for_human": "Provide a description of an image using a URL.",
+  "description_for_model": "Plugin for describing an image based using a URL.",
+  "auth": {
+      "type": "none"
+  },
+  "api": {
+      "type": "openapi",
+      "url": "http://localhost:5003/openapi.yaml"
+  },
+  "logo_url": "http://localhost:5003/logo.png",
+  "contact_email": "legal@example.com",
+  "legal_info_url": "http://example.com/legal"
+}
